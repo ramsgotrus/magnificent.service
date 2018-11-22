@@ -1,4 +1,4 @@
-# health of Magnificent
+# Health of Magnificent
 
 This is project have been created for monitoring the health of Magnificent that consist of back-end API which you can expose to other applicaiton and a Web Interface to show the graph for graph for the current percentage of failures in the rolling interval and return Http JSON HTTP.
 
