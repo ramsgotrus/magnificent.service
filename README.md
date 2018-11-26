@@ -1,6 +1,8 @@
-# Health of Magnificent
+# Magnificent service
 
-This is project have been created for monitoring the health of Magnificent that consist of back-end API which you can expose to other applicaiton and a Web Interface to show the graph for graph for the current percentage of failures in the rolling interval and return Http JSON HTTP.
+Magnificent service have been created to monitor service and returns the health of the service.The API endpoint handler performs various check including the status of the connections , status of host.This service consist of API which peridically invokes the endpoint to check the health of service instance and the response will be return with Status code and the timestamp in json format which can be easily binded in HTML page.
+
+View have been also created with table to show status count and a graph to show the current percentage of failures in the rolling interval.
 
 
 ## Getting Started
@@ -9,7 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Update any URL in responseServiceStart method in MagnificentThread class and visit in a web browser.
+After project have been imported in to Eclipse and run , please browse the index.jsp from the following path  magnificent.service/src/main/webapp/WEB-INF/jsp/ .
+
+Service will start checking health of given url and update the status count and graph.
 
 ```
 Give examples
@@ -24,7 +28,6 @@ Assuming you have created a project in GitHub, these are the steps to import it 
 https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse
 
 After importing build the project.
-
 
 ## Built With
 
