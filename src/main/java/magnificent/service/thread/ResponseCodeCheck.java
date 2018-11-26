@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import magnificent.service.ResponseDetails;
 /**
-* This class is for checking the response for http://localhost:12345/
+*Class is for checking response for url:  http://localhost:12345/
 * @author  Ram Gotru
 * @version 1.0
 * @since   2018-11-21 
