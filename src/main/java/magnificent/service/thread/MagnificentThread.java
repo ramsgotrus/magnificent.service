@@ -1,7 +1,7 @@
 package magnificent.service.thread;
 import java.io.IOException;
 /**
-* This class is for entity object for thread to start
+* Class to start thread
 * @author  Ram Gotru
 * @version 1.0
 * @since   2018-11-21 
