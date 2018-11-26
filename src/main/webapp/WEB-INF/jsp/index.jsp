@@ -13,7 +13,7 @@
       google.charts.setOnLoadCallback(drawChart);
 
       // Callback that creates and populates a data table,
-      // instantiates the pie chart, passes in the data and
+      // instantiates the ColumnChart, passes in the data and
       // draws it.
       function drawChart() {
 
@@ -45,8 +45,7 @@
       }
     </script>
 
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Company Page</title>
+  <title>Sauce Labs Magnificent Service</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
