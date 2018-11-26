@@ -22,7 +22,7 @@ public class ResponseController {
 	@Autowired
 	private MagnificentThread magnificentThread;
 	@RequestMapping("/magnificentCheck")
-    public List<HealthResponse> GetAllTopics(){
+    public List<HealthResponse> GetAllResponses(){
         return responseService.GetAllGetResponses();
     }
 	/*Method to get all responses count*/
