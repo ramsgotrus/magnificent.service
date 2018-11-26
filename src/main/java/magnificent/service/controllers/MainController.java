@@ -1,6 +1,6 @@
 package magnificent.service.controllers;
 /**
-* This Controller class to call from View index.jsp
+* This is Controller class to call from View index.jsp
 * @author  Ram Gotru
 * @version 1.0
 * @since   2018-11-21 
@@ -28,7 +28,7 @@ public class MainController {
         return "index";
 		}
 	@GetMapping("/getHealthResponses")
-    public List<HealthResponse> GetAllTopics(){
+    public List<HealthResponse> GetAllResponses(){
         return responseService.GetAllGetResponses();
     }
 	@GetMapping("/getHealthResponseCount")
