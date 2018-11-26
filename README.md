@@ -1,8 +1,8 @@
 # Magnificent service
 
-Magnificent service have been created to monitor service and returns the health of the service.The API endpoint handler performs various check including the status of the connections , status of host.This service consist of API which peridically invokes the endpoint to check the health of service instance and the response will be return with Status code and the timestamp in json format which can be easily binded in HTML page.
+Magnificent service have been created to monitor service and returns the health of the service.The API endpoint handler performs various check including the status of the connections , status of host.This service consist of API which peridically invokes the endpoint to check the health of any service (e.g http) and the response will be return with Status code along with timestamp in json format.
 
-View have been also created with table to show status count and a graph to show the current percentage of failures in the rolling interval.
+View have been created using the API to show the status count and a graph to show the current percentage of failures in the rolling interval.
 
 
 ## Getting Started
