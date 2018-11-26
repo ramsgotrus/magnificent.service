@@ -7,6 +7,14 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
+
+/**
+* Class for Response service for all methods
+* @author  Ram Gotru
+* @version 1.0
+* @since   2018-11-21 
+*/
+
 @Service
 public class ResponseService {
 	
