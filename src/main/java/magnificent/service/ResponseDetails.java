@@ -1,6 +1,6 @@
 package magnificent.service;
 /**
-* This class is for entity object for health response to get jason object
+* Response details entity object to get in json format
 * @author  Ram Gotru
 * @version 1.0
 * @since   2018-11-21 
